@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Miss+Fajardose');
+
+html {
+  display: flex;
+  height: 100%;
+  width: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-between;
+  font-family: 'Alegreya Sans';
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/lakeBackground.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    height: 94px;
+    width: auto;
+    z-index: 10;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: solid 2px rgba(0, 144, 0, 1);
+    border-bottom: solid 2px rgba(0, 144, 0, 1);
+    border-right: solid rgba(0, 144, 0, 0.7);
+    right: 0px;
+    left: 0px;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-between;
+    align-content: center;
+    color: white;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+  margin: 0px 16px 0px 16px;
+}
+
+.logo h1 {
+  font-size: 64px;
+  font-family: 'Miss Fajardose';
+  margin-right: 16px;
+}
+
+.logo p {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  font-size: 32px;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  margin: 0px 16px 0px 16px;
+  color: white;
+}
+
+a:hover {
+  text-shadow: 2px 2px 6px rgba(0, 244, 0, 1), 2px -2px 2px rgba(0, 244, 0, 1);
+  font-weight: bold;
+}
+
+.tagline {
+  display: flex;
+  width: 30%;
+  height: auto;
+  padding-top: 126px;
+}
+
+.tagline p {
+  padding: 16px;
+  margin-left: 64px;
+  font-size: 18px;
+  font-family: inherit;
+  font-style: italic;
+  color: white;
+  background-color: rgba(0,144,0,1);
+  border-radius: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+footer h4 {
+  margin: 32px 14px 0px 14px;
+  color: cornsilk;
+  text-shadow: 2px 2px 4px black;
+  background-color: rgba(0,144,0,0.5);
+}
