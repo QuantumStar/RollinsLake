@@ -58,12 +58,22 @@ a:-webkit-any-link {
   height: 100%;
   width: auto;
   margin: 0px 16px 0px 16px;
+  color: white;
 }
 
 .logo h1 {
   font-size: 64px;
   font-family: 'Miss Fajardose';
-  margin-right: 16px;
+  margin-right: 8px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  margin: 0px;
+  color: white;
 }
 
 .logo p {
